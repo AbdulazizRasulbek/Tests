@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".View.MenuActivity">
+
+    <Button
+        android:id="@+id/buttonResume"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:drawableLeft="@drawable/ic_resume"
+        android:paddingLeft="10dp"
+        android:text="Resume"
+        android:visibility="gone"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:drawableLeft="@drawable/ic_play_arrow"
+        android:paddingLeft="10dp"
+        android:text="Start"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:drawableLeft="@drawable/ic_settings_black_24dp"
+        android:paddingLeft="10dp"
+        android:text="Settings"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/btn_background"
+        android:drawableLeft="@drawable/ic_info"
+        android:paddingLeft="10dp"
+        android:text="About"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:drawableLeft="@drawable/ic_close"
+        android:paddingLeft="10dp"
+        android:text="Exit"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</LinearLayout>
